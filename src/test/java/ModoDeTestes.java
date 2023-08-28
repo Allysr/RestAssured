@@ -23,5 +23,6 @@ public class ModoDeTestes {
     @DisplayName("Deve validar se o status code retorna 200")
     public void deveValidarOStatusCodeMetodoTres(){
         RestAssured.given().when().get("http://restapi.wcaquino.me/ola").then().statusCode(200);
+
     }
 }
